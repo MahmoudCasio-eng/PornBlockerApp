@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent"
+ android:orientation="vertical" android:gravity="center" android:padding="24dp"
+ android:background="#101010" android:layoutDirection="rtl">
+ <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="⚠️ اتق الله فإنه يراك" android:textColor="#FFD54F" android:textSize="28sp" android:textStyle="bold"/>
+ <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:layout_marginTop="30dp" android:gravity="center"
+  android:text="أُولَٰئِكَ الَّذِينَ اشْتَرَوُا الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ ۖ فَلَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلَا هُمْ يُنصَرُونَ"
+  android:textColor="#FFD54F" android:textSize="24sp" android:lineSpacingMultiplier="1.5"/>
+ <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:layout_marginTop="22dp" android:text="سورة البقرة — الآية 86"
+  android:textColor="#FFFFFF" android:textSize="17sp"/>
+ <Button android:id="@+id/backButton" android:layout_width="match_parent"
+  android:layout_height="wrap_content" android:layout_marginTop="35dp"
+  android:text="العودة" android:textAllCaps="false"/>
+</LinearLayout>
